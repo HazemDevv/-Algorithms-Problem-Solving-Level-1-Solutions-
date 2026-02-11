@@ -16,7 +16,7 @@ StInfo ReadInfo() {
 	cin >> Info.Age;
 	cout << "Do You Have Driver License? \n";
 	cin >> Info.HasDriverLicense;
-	cout << "Do you have a driver’s license ? (1 for Yes, 0 for No) \n";
+	cout << "Do you have a driverâ€™s license ? (1 for Yes, 0 for No) \n";
 	cin >> Info.HasRecommendation;
 	return Info;
 }
@@ -43,3 +43,4 @@ int main()
 	PrintResult(ReadInfo());
 	return 0;
 }
+
