@@ -4,13 +4,14 @@
 #include <iostream>
 #include <string>
 using namespace std;
+//function ReadName
 string ReadName() {
 	string Name;
 	cout << "Please Enter Your Name? \n";
 	getline(cin, Name);
 	return Name;
 }
-
+// // printname
 void PrintName(string Name) {
 	cout << "\nYour Name is: " << Name << endl;
 
@@ -19,4 +20,5 @@ int main()
 {
 	PrintName(ReadName());
 	return 0;
+
 }
