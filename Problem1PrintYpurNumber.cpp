@@ -4,7 +4,7 @@
 #include <iostream>
 
 using namespace std;
-
+//function print Name
 void PrintName(string Name) {
 	cout << "\nYour Name is: " << Name << endl;
 
@@ -15,3 +15,4 @@ int main()
 
 	return 0;
 }
+
