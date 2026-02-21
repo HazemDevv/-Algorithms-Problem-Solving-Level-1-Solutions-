@@ -34,7 +34,7 @@ int main()
 {
 	int MyNumber;
 for (int i = 1; i <= 10; i++) {
-
+//االلوب من عندي
      if(i == 3){
 	 break;
 	 }
@@ -42,4 +42,5 @@ for (int i = 1; i <= 10; i++) {
 	}
 
 	return 0;
+
 }
